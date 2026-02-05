@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Колебания и волны: Формулы 11 класс</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #e0f7fa;
+            font-family: 'Arial', sans-serif;
+            color: #004d40;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 2px #fff;
+            text-align: center;
+        }
+        .formula-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 77, 64, 0.2);
+            max-width: 900px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .formula-section {
+            margin-bottom: 25px;
+        }
+        .formula-section h3 {
+            color: #00796b;
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .formula {
+            font-size: 1.2em;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-left: 4px solid #00796b;
+            border-radius: 0 5px 5px 0;
+            font-family: 'Courier New', monospace;
+        }
+        .button {
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 20px;
+            color: white;
+            background-color: #00796b;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.2s;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #004d40;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>КОЛЕБАНИЯ И ВОЛНЫ: ФОРМУЛЫ 11 КЛАСС</h1>
+    
+    <div class="formula-container">
+        <div class="formula-section">
+            <h3>Основные характеристики колебаний</h3>
+            <div class="formula">x = A·cos(ωt + φ₀) (уравнение гармонических колебаний)</div>
+            <div class="formula">A - амплитуда колебаний [м]</div>
+            <div class="formula">T = t/N (период колебаний [с])</div>
+            <div class="formula">ν = N/t = 1/T (частота колебаний [Гц])</div>
+            <div class="formula">ω = 2πν = 2π/T (циклическая частота [рад/с])</div>
+            <div class="formula">φ = ωt + φ₀ (фаза колебаний)</div>
+            <div class="formula">φ₀ - начальная фаза</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Скорость и ускорение при колебаниях</h3>
+            <div class="formula">v = x' = -A·ω·sin(ωt + φ₀) (скорость)</div>
+            <div class="formula">v_max = A·ω (максимальная скорость)</div>
+            <div class="formula">a = v' = -A·ω²·cos(ωt + φ₀) (ускорение)</div>
+            <div class="formula">a = -ω²·x (ускорение пропорционально смещению)</div>
+            <div class="formula">a_max = A·ω² (максимальное ускорение)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Пружинный маятник</h3>
+            <div class="formula">T = 2π√(m/k)</div>
+            <div class="formula">ω = √(k/m)</div>
+            <div class="formula">ν = 1/(2π)·√(k/m)</div>
+            <p>где m - масса груза [кг], k - жёсткость пружины [Н/м]</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Математический маятник</h3>
+            <div class="formula">T = 2π√(l/g)</div>
+            <div class="formula">ω = √(g/l)</div>
+            <div class="formula">ν = 1/(2π)·√(g/l)</div>
+            <div class="formula">l = g·(T/2π)² (длина маятника)</div>
+            <p>где l - длина маятника [м], g = 9.8 м/с² - ускорение свободного падения</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Энергия колебаний</h3>
+            <div class="formula">E = E_k + E_p (полная механическая энергия)</div>
+            <div class="formula">E_k = (m·v²)/2 = (m·A²·ω²·sin²(ωt+φ₀))/2 (кинетическая энергия)</div>
+            <div class="formula">E_p = (k·x²)/2 = (k·A²·cos²(ωt+φ₀))/2 (потенциальная энергия)</div>
+            <div class="formula">E = (k·A²)/2 = (m·A²·ω²)/2 (полная энергия)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Затухающие колебания</h3>
+            <div class="formula">x = A₀·e^(-βt)·cos(ωt + φ₀)</div>
+            <div class="formula">ω = √(ω₀² - β²) (частота затухающих колебаний)</div>
+            <div class="formula">τ = 1/β (время релаксации)</div>
+            <div class="formula">λ = ln(A(t)/A(t+T)) = βT (логарифмический декремент затухания)</div>
+            <p>где β - коэффициент затухания, ω₀ - собственная частота</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Вынужденные колебания. Резонанс</h3>
+            <div class="formula">x = A_вын·cos(Ωt + φ_вын)</div>
+            <div class="formula">A_вын = F₀/(m·√((ω₀²-Ω²)² + 4β²Ω²))</div>
+            <div class="formula">Ω_рез = √(ω₀² - 2β²) (резонансная частота)</div>
+            <p>где Ω - частота вынуждающей силы, F₀ - амплитуда вынуждающей силы</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Электромагнитные колебания</h3>
+            <div class="formula">q = q₀·cos(ωt + φ₀) (заряд конденсатора)</div>
+            <div class="formula">i = q' = -q₀·ω·sin(ωt + φ₀) (сила тока)</div>
+            <div class="formula">U = q/C = (q₀/C)·cos(ωt + φ₀) (напряжение)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Колебательный контур</h3>
+            <div class="formula">T = 2π√(L·C) (период колебаний)</div>
+            <div class="formula">ω = 1/√(L·C) (циклическая частота)</div>
+            <div class="formula">ν = 1/(2π√(L·C)) (частота)</div>
+            <p>формула Томсона, где L - индуктивность [Гн], C - ёмкость [Ф]</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Энергия колебательного контура</h3>
+            <div class="formula">W = W_э + W_м (полная энергия)</div>
+            <div class="formula">W_э = q²/(2C) = (q₀²/(2C))·cos²(ωt+φ₀) (энергия электрического поля)</div>
+            <div class="formula">W_м = (L·i²)/2 = (L·q₀²·ω²/2)·sin²(ωt+φ₀) (энергия магнитного поля)</div>
+            <div class="formula">W = q₀²/(2C) = (L·i₀²)/2 (полная энергия)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Механические волны. Основные характеристики</h3>
+            <div class="formula">λ = v·T = v/ν (длина волны)</div>
+            <div class="formula">v = λ·ν (скорость волны)</div>
+            <div class="formula">ω = 2πν (циклическая частота)</div>
+            <div class="formula">k = 2π/λ (волновое число)</div>
+            <p>где λ - длина волны [м], v - скорость волны [м/с]</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Уравнение бегущей волны</h3>
+            <div class="formula">ξ(x,t) = A·cos(ωt - kx + φ₀)</div>
+            <div class="formula">ξ(x,t) = A·cos(2π(νt - x/λ) + φ₀)</div>
+            <div class="formula">ξ(x,t) = A·cos(2π(t/T - x/λ) + φ₀)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Стоячие волны</h3>
+            <div class="formula">ξ(x,t) = 2A·cos(kx)·cos(ωt) (уравнение стоячей волны)</div>
+            <div class="formula">x_пучн = n·λ/2 (координаты пучностей, n = 0,1,2...)</div>
+            <div class="formula">x_узл = (2n+1)·λ/4 (координаты узлов, n = 0,1,2...)</div>
+            <div class="formula">l = n·λ/2 (длина струны для стоячей волны)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Звуковые волны</h3>
+            <div class="formula">v_звука = √(γ·p/ρ) (в газах)</div>
+            <div class="formula">v_звука = √(E/ρ) (в твёрдых телах)</div>
+            <div class="formula">v_звука = √(K/ρ) (в жидкостях)</div>
+            <div class="formula">I = P/S = (ρ·v·ω²·A²)/2 (интенсивность звука)</div>
+            <div class="formula">L = 10·lg(I/I₀) (уровень громкости в дБ)</div>
+            <div class="formula">I₀ = 10⁻¹² Вт/м² (порог слышимости)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Эффект Доплера</h3>
+            <div class="formula">ν' = ν·(v ± v_пр)/(v ∓ v_ист) (для механических волн)</div>
+            <div class="formula">ν' = ν·√((1 ± v/c)/(1 ∓ v/c)) (для световых волн)</div>
+            <p>где ν' - наблюдаемая частота, ν - частота источника, v_пр - скорость приёмника, v_ист - скорость источника</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Скорость волны в различных средах</h3>
+            <div class="formula">v = √(T/μ) (для струны)</div>
+            <div class="formula">v = √(E/ρ) (для стержня)</div>
+            <div class="formula">v_света = c/n (в среде)</div>
+            <p>где T - сила натяжения [Н], μ = m/l - линейная плотность [кг/м], E - модуль Юнга [Па]</p>
+        </div>
+    </div>
+    
+    <a href="#" class="button">Назад</a>
+</body>
+</html>

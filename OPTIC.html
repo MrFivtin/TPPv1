@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оптика: Формулы 11 класс</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #e0f7fa;
+            font-family: 'Arial', sans-serif;
+            color: #004d40;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 2px #fff;
+            text-align: center;
+        }
+        .formula-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 77, 64, 0.2);
+            max-width: 900px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .formula-section {
+            margin-bottom: 25px;
+        }
+        .formula-section h3 {
+            color: #00796b;
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .formula {
+            font-size: 1.2em;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-left: 4px solid #00796b;
+            border-radius: 0 5px 5px 0;
+            font-family: 'Courier New', monospace;
+        }
+        .button {
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 20px;
+            color: white;
+            background-color: #00796b;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.2s;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #004d40;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>ОПТИКА: ФОРМУЛЫ 11 КЛАСС</h1>
+    
+    <div class="formula-container">
+        <div class="formula-section">
+            <h3>Скорость света и показатель преломления</h3>
+            <div class="formula">c = 3·10⁸ м/с (скорость света в вакууме)</div>
+            <div class="formula">n = c / v (абсолютный показатель преломления)</div>
+            <div class="formula">n₂₁ = n₂ / n₁ = v₁ / v₂ (относительный показатель преломления)</div>
+            <div class="formula">v = λ·ν (cвязь скорости, длины волны и частоты)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Закон преломления (Закон Снеллиуса)</h3>
+            <div class="formula">n₁·sin α = n₂·sin β</div>
+            <div class="formula">n₂₁ = sin α / sin β</div>
+            <p>где α - угол падения, β - угол преломления</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Полное внутреннее отражение</h3>
+            <div class="formula">sin α₀ = n₂ / n₁ (при n₁ > n₂)</div>
+            <p>где α₀ - предельный угол полного внутреннего отражения</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Тонкие линзы</h3>
+            <div class="formula">1/F = 1/d + 1/f (формула тонкой линзы)</div>
+            <div class="formula">D = 1/F (оптическая сила линзы)</div>
+            <div class="formula">Γ = H/h = f/d = (F)/(d-F) (увеличение линзы)</div>
+            <p>где F - фокусное расстояние, d - расстояние от предмета до линзы,<br>
+            f - расстояние от изображения до линзы, D - оптическая сила (в диоптриях)</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Формула линзы через оптическую силу</h3>
+            <div class="formula">1/d + 1/f = D</div>
+            <div class="formula">D = (n-1)(1/R₁ + 1/R₂) (формула для двояковыпуклой линзы)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Интерференция света</h3>
+            <div class="formula">Δ = kλ (условие максимума)</div>
+            <div class="formula">Δ = (2k+1)λ/2 (условие минимума)</div>
+            <div class="formula">Δ = n·l (оптическая разность хода)</div>
+            <p>где Δ - разность хода, k = 0, ±1, ±2,... - порядок интерференции</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Дифракция света</h3>
+            <div class="formula">d·sin φ = kλ (условие главных максимумов для решётки)</div>
+            <div class="formula">d·sin φ = (2k+1)λ/2 (условие главных минимумов для щели)</div>
+            <div class="formula">λ = d·sin φ / k (для определения длины волны)</div>
+            <p>где d - период решётки, φ - угол дифракции, k - порядок спектра</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Дифракционная решётка</h3>
+            <div class="formula">N = 1/d (число штрихов на 1 мм)</div>
+            <div class="formula">φ_max ≈ tan φ = x/L (для малых углов)</div>
+            <p>где x - расстояние от центрального максимума до максимума k-го порядка,<br>
+            L - расстояние от решётки до экрана</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Дисперсия света</h3>
+            <div class="formula">n = f(λ) (зависимость показателя преломления от длины волны)</div>
+            <div class="formula">n(фиол) > n(красн) (для нормальной дисперсии)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Поляризация света</h3>
+            <div class="formula">I = I₀·cos² φ (закон Малюса)</div>
+            <div class="formula">tg αБ = n₂/n₁ (угол Брюстера)</div>
+            <p>где I₀ - интенсивность падающего поляризованного света,<br>
+            I - интенсивность прошедшего света, φ - угол между плоскостями поляризации</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Фотоны и энергия света</h3>
+            <div class="formula">E = h·ν = h·c/λ (энергия фотона)</div>
+            <div class="formula">p = h/λ (импульс фотона)</div>
+            <div class="formula">h = 6.63·10⁻³⁴ Дж·с (постоянная Планка)</div>
+            <div class="formula">ħ = h/(2π) (редуцированная постоянная Планка)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Фотоэффект</h3>
+            <div class="formula">hν = Aвых + (m·v²)/2 (уравнение Эйнштейна)</div>
+            <div class="formula">hν = Aвых + e·Uз</div>
+            <div class="formula">ν_min = Aвых / h (красная граница фотоэффекта)</div>
+            <p>где Aвых - работа выхода, Uз - задерживающее напряжение,<br>
+            e = 1.6·10⁻¹⁹ Кл - заряд электрона</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Давление света</h3>
+            <div class="formula">p = (1+ρ)·I/c (при нормальном падении)</div>
+            <div class="formula">p = (2I)/c (при полном отражении)</div>
+            <div class="formula">p = I/c (при полном поглощении)</div>
+            <p>где I - интенсивность света, ρ - коэффициент отражения</p>
+        </div>
+    </div>
+    
+    <a href="#" class="button">Назад</a>
+</body>
+</html>

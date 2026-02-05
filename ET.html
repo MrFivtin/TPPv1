@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Электрический ток: Формулы 11 класс</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #e0f7fa;
+            font-family: 'Arial', sans-serif;
+            color: #004d40;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 2px #fff;
+            text-align: center;
+        }
+        .formula-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 77, 64, 0.2);
+            max-width: 900px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .formula-section {
+            margin-bottom: 25px;
+        }
+        .formula-section h3 {
+            color: #00796b;
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .formula {
+            font-size: 1.2em;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-left: 4px solid #00796b;
+            border-radius: 0 5px 5px 0;
+            font-family: 'Courier New', monospace;
+        }
+        .button {
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 20px;
+            color: white;
+            background-color: #00796b;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.2s;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #004d40;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>ЭЛЕКТРИЧЕСКИЙ ТОК: ФОРМУЛЫ 11 КЛАСС</h1>
+    
+    <div class="formula-container">
+        <div class="formula-section">
+            <h3>Основные характеристики тока</h3>
+            <div class="formula">I = q / t (сила тока)</div>
+            <div class="formula">I = n·e·v·S (для металлов)</div>
+            <div class="formula">j = I / S (плотность тока)</div>
+            <div class="formula">e = 1.6·10⁻¹⁹ Кл (заряд электрона)</div>
+            <p>где I - сила тока [А], q - заряд [Кл], t - время [с], n - концентрация носителей заряда</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Закон Ома для участка цепи</h3>
+            <div class="formula">I = U / R</div>
+            <div class="formula">U = I·R</div>
+            <div class="formula">R = U / I</div>
+            <p>где U - напряжение [В], R - сопротивление [Ом]</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Сопротивление проводника</h3>
+            <div class="formula">R = ρ·l / S</div>
+            <div class="formula">ρ = R·S / l (удельное сопротивление)</div>
+            <div class="formula">R = R₀·(1 + α·Δt) (зависимость от температуры)</div>
+            <p>где ρ - удельное сопротивление [Ом·м], l - длина [м], S - площадь сечения [м²], α - температурный коэффициент</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Последовательное соединение проводников</h3>
+            <div class="formula">I = I₁ = I₂ = ... = I_n</div>
+            <div class="formula">U = U₁ + U₂ + ... + U_n</div>
+            <div class="formula">R = R₁ + R₂ + ... + R_n</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Параллельное соединение проводников</h3>
+            <div class="formula">U = U₁ = U₂ = ... = U_n</div>
+            <div class="formula">I = I₁ + I₂ + ... + I_n</div>
+            <div class="formula">1/R = 1/R₁ + 1/R₂ + ... + 1/R_n</div>
+            <div class="formula">R = (R₁·R₂) / (R₁ + R₂) (для двух резисторов)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Работа и мощность тока</h3>
+            <div class="formula">A = q·U = I·U·t</div>
+            <div class="formula">P = A / t = I·U</div>
+            <div class="formula">P = I²·R = U² / R</div>
+            <p>где A - работа тока [Дж], P - мощность [Вт], t - время [с]</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Закон Джоуля-Ленца</h3>
+            <div class="formula">Q = I²·R·t</div>
+            <div class="formula">Q = I·U·t = U²·t / R</div>
+            <p>Количество теплоты, выделяемое проводником с током</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Электродвижущая сила (ЭДС)</h3>
+            <div class="formula">ε = A_стор / q</div>
+            <div class="formula">ε = I·R + I·r = U + I·r</div>
+            <p>где ε - ЭДС [В], r - внутреннее сопротивление источника</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Закон Ома для полной цепи</h3>
+            <div class="formula">I = ε / (R + r)</div>
+            <div class="formula">ε = I·R + I·r</div>
+            <div class="formula">U = ε - I·r (напряжение на внешней цепи)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Короткое замыкание</h3>
+            <div class="formula">I_кз = ε / r</div>
+            <div class="formula">U = 0 (при коротком замыкании)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Соединение источников тока</h3>
+            <div class="formula">ε_общ = ε₁ + ε₂ + ... + ε_n (последовательно)</div>
+            <div class="formula">r_общ = r₁ + r₂ + ... + r_n (последовательно)</div>
+            <div class="formula">ε_общ = ε (параллельно одинаковых источников)</div>
+            <div class="formula">1/r_общ = 1/r₁ + 1/r₂ + ... + 1/r_n (параллельно)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Правила Кирхгофа</h3>
+            <div class="formula">ΣI_k = 0 (1-е правило: для узла)</div>
+            <div class="formula">Σε_k = ΣI_k·R_k (2-е правило: для контура)</div>
+            <p>где ΣI_k - алгебраическая сумма токов в узле, Σε_k - алгебраическая сумма ЭДС в контуре</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Электрическая ёмкость</h3>
+            <div class="formula">C = q / U</div>
+            <div class="formula">C = ε₀·ε·S / d (плоский конденсатор)</div>
+            <div class="formula">W = q²/(2C) = C·U²/2 = q·U/2 (энергия конденсатора)</div>
+            <div class="formula">ε₀ = 8.85·10⁻¹² Ф/м (электрическая постоянная)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Соединение конденсаторов</h3>
+            <div class="formula">C = C₁ + C₂ + ... + C_n (параллельно)</div>
+            <div class="formula">1/C = 1/C₁ + 1/C₂ + ... + 1/C_n (последовательно)</div>
+            <div class="formula">C = (C₁·C₂) / (C₁ + C₂) (для двух последовательно)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Постоянный и переменный ток</h3>
+            <div class="formula">I = I₀·sin(ωt) (переменный ток)</div>
+            <div class="formula">U = U₀·sin(ωt) (переменное напряжение)</div>
+            <div class="formula">I_действ = I₀/√2 (действующее значение)</div>
+            <div class="formula">U_действ = U₀/√2 (действующее значение)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Трансформатор</h3>
+            <div class="formula">U₁/U₂ = N₁/N₂ = k (коэффициент трансформации)</div>
+            <div class="formula">I₁/I₂ = N₂/N₁ = 1/k (для идеального трансформатора)</div>
+            <p>где N₁, N₂ - числа витков обмоток, k - коэффициент трансформации</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>КПД источника тока</h3>
+            <div class="formula">η = P_полезн / P_полн = R / (R + r)</div>
+            <div class="formula">η = U / ε</div>
+            <p>где η - коэффициент полезного действия</p>
+        </div>
+    </div>
+    
+    <a href="#" class="button">Назад</a>
+</body>
+</html>

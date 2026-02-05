@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Молекулярная физика: Формулы 10 класс</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #e0f7fa;
+            font-family: 'Arial', sans-serif;
+            color: #004d40;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 2px #fff;
+            text-align: center;
+        }
+        .formula-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 77, 64, 0.2);
+            max-width: 800px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .formula-section {
+            margin-bottom: 25px;
+        }
+        .formula-section h3 {
+            color: #00796b;
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .formula {
+            font-size: 1.2em;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-left: 4px solid #00796b;
+            border-radius: 0 5px 5px 0;
+            font-family: 'Courier New', monospace;
+        }
+        .button {
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 20px;
+            color: white;
+            background-color: #00796b;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.2s;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #004d40;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>МОЛЕКУЛЯРНАЯ ФИЗИКА: ФОРМУЛЫ 10 КЛАСС</h1>
+    
+    <div class="formula-container">
+        <div class="formula-section">
+            <h3>Основные величины</h3>
+            <div class="formula">ν = N / Nₐ = m / M (количество вещества)</div>
+            <div class="formula">Nₐ = 6.022·10²³ моль⁻¹ (постоянная Авогадро)</div>
+            <div class="formula">m₀ = M / Nₐ (масса одной молекулы)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Основное уравнение МКТ</h3>
+            <div class="formula">p = (1/3) · n · m₀ · v²</div>
+            <div class="formula">p = (2/3) · n · E</div>
+            <p>где n = N/V - концентрация молекул, E - средняя кинетическая энергия</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Температура и энергия</h3>
+            <div class="formula">E = (3/2) · k · T (средняя кинетическая энергия поступательного движения)</div>
+            <div class="formula">v² = (3k·T) / m₀ (средний квадрат скорости)</div>
+            <div class="formula">k = 1.38·10⁻²³ Дж/К (постоянная Больцмана)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Уравнение состояния идеального газа (уравнение Менделеева-Клапейрона)</h3>
+            <div class="formula">p · V = ν · R · T</div>
+            <div class="formula">p · V = (m / M) · R · T</div>
+            <div class="formula">R = 8.31 Дж/(моль·К) (универсальная газовая постоянная)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Частные случаи (газовые законы)</h3>
+            <div class="formula">p · V = const (T = const) - закон Бойля-Мариотта</div>
+            <div class="formula">V / T = const (p = const) - закон Гей-Люссака</div>
+            <div class="formula">p / T = const (V = const) - закон Шарля</div>
+            <div class="formula">p · V / T = const - объединённый газовый закон</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Изопроцессы</h3>
+            <div class="formula">Изотермический: T = const, p · V = const</div>
+            <div class="formula">Изобарный: p = const, V / T = const</div>
+            <div class="formula">Изохорный: V = const, p / T = const</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Внутренняя энергия идеального газа</h3>
+            <div class="formula">U = (i/2) · ν · R · T</div>
+            <p>где i - число степеней свободы молекулы<br>
+            i = 3 для одноатомного газа<br>
+            i = 5 для двухатомного газа<br>
+            i = 6 для многоатомного газа</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Первое начало термодинамики</h3>
+            <div class="formula">Q = ΔU + A</div>
+            <p>где Q - количество теплоты, ΔU - изменение внутренней энергии, A - работа газа</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Работа газа</h3>
+            <div class="formula">A = p · ΔV (при изобарном процессе)</div>
+            <div class="formula">A = ν · R · T · ln(V₂/V₁) (при изотермическом процессе)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Теплоёмкость</h3>
+            <div class="formula">C = Q / ΔT</div>
+            <div class="formula">Cᵥ = (i/2) · R (молярная теплоёмкость при постоянном объёме)</div>
+            <div class="formula">Cₚ = Cᵥ + R = ((i+2)/2) · R (молярная теплоёмкость при постоянном давлении)</div>
+            <div class="formula">γ = Cₚ / Cᵥ (показатель адиабаты)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Уравнение теплового баланса</h3>
+            <div class="formula">Qотд = Qполуч</div>
+            <p>Сумма отданных количеств теплоты равна сумме полученных</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Влажность воздуха</h3>
+            <div class="formula">φ = (ρ / ρ₀) · 100%</div>
+            <div class="formula">φ = (p / p₀) · 100%</div>
+            <p>где ρ - плотность водяного пара, ρ₀ - плотность насыщенного пара,<br>
+            p - давление пара, p₀ - давление насыщенного пара</p>
+        </div>
+    </div>
+    
+    <a href="#" class="button">Назад</a>
+</body>
+</html>

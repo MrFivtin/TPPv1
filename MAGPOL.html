@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магнитное поле: Формулы 11 класс</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #e0f7fa;
+            font-family: 'Arial', sans-serif;
+            color: #004d40;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 2px #fff;
+            text-align: center;
+        }
+        .formula-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 77, 64, 0.2);
+            max-width: 900px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .formula-section {
+            margin-bottom: 25px;
+        }
+        .formula-section h3 {
+            color: #00796b;
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .formula {
+            font-size: 1.2em;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-left: 4px solid #00796b;
+            border-radius: 0 5px 5px 0;
+            font-family: 'Courier New', monospace;
+        }
+        .button {
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 20px;
+            color: white;
+            background-color: #00796b;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.2s;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #004d40;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>МАГНИТНОЕ ПОЛЕ: ФОРМУЛЫ 11 КЛАСС</h1>
+    
+    <div class="formula-container">
+        <div class="formula-section">
+            <h3>Основные характеристики магнитного поля</h3>
+            <div class="formula">B = F_max / (I·l) (индукция магнитного поля)</div>
+            <div class="formula">Ф = B·S·cos α (магнитный поток)</div>
+            <div class="formula">μ₀ = 4π·10⁻⁷ Гн/м (магнитная постоянная)</div>
+            <p>где B - магнитная индукция [Тл], Ф - магнитный поток [Вб], S - площадь [м²]</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Сила Ампера (сила, действующая на проводник с током)</h3>
+            <div class="formula">F_A = I·B·l·sin α</div>
+            <div class="formula">F_A = I·l·B (при α = 90°)</div>
+            <p>где I - сила тока [А], l - длина проводника [м], α - угол между проводником и вектором B</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Сила Лоренца (сила, действующая на заряженную частицу)</h3>
+            <div class="formula">F_Л = q·v·B·sin α</div>
+            <div class="formula">F_Л = q·v·B (при α = 90°)</div>
+            <div class="formula">F_Л = q·v·B = m·v²/R (для движения по окружности)</div>
+            <p>где q - заряд частицы [Кл], v - скорость частицы [м/с]</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Движение заряженной частицы в магнитном поле</h3>
+            <div class="formula">R = (m·v) / (|q|·B) (радиус траектории)</div>
+            <div class="formula">T = (2π·m) / (|q|·B) (период обращения)</div>
+            <div class="formula">ω = (|q|·B) / m (циклическая частота)</div>
+            <p>где R - радиус окружности [м], T - период [с], ω - угловая скорость [рад/с]</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Магнитное поле прямого тока (закон Био-Савара-Лапласа)</h3>
+            <div class="formula">B = (μ₀·μ·I) / (2π·r) (для бесконечно длинного прямого проводника)</div>
+            <p>где r - расстояние от проводника [м], μ - магнитная проницаемость среды</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Магнитное поле в центре кругового витка</h3>
+            <div class="formula">B = (μ₀·μ·I·N) / (2R)</div>
+            <div class="formula">B = (μ₀·μ·I) / (2R) (для одного витка)</div>
+            <p>где R - радиус витка [м], N - число витков</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Магнитное поле соленоида (длинной катушки)</h3>
+            <div class="formula">B = μ₀·μ·I·n</div>
+            <div class="formula">n = N / l (число витков на единицу длины)</div>
+            <p>где n - плотность витков [витков/м], l - длина соленоида [м]</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Закон полного тока (теорема о циркуляции)</h3>
+            <div class="formula">∮B·dl = μ₀·μ·ΣI</div>
+            <p>Циркуляция вектора B по замкнутому контуру равна алгебраической сумме токов, охватываемых контуром</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Работа магнитного поля</h3>
+            <div class="formula">A = 0 (при перемещении проводника с током или заряда по замкнутой траектории)</div>
+            <div class="formula">A = I·ΔФ (при изменении магнитного потока)</div>
+            <p>Магнитное поле не совершает работы над движущимся зарядом</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Магнитный поток и закон электромагнитной индукции</h3>
+            <div class="formula">ε_i = -ΔФ/Δt (закон Фарадея)</div>
+            <div class="formula">ε_i = -N·ΔФ/Δt (для катушки)</div>
+            <div class="formula">ε_i = B·l·v·sin α (для движущегося проводника)</div>
+            <p>где ε_i - ЭДС индукции [В], ΔФ - изменение магнитного потока [Вб], Δt - время изменения [с]</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Индуктивность</h3>
+            <div class="formula">L = Ф / I (индуктивность контура)</div>
+            <div class="formula">ε_s = -L·ΔI/Δt (ЭДС самоиндукции)</div>
+            <div class="formula">W_m = (L·I²)/2 (энергия магнитного поля катушки)</div>
+            <p>где L - индуктивность [Гн], ε_s - ЭДС самоиндукции [В], W_m - энергия [Дж]</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Сила взаимодействия параллельных токов</h3>
+            <div class="formula">F = (μ₀·μ·I₁·I₂·l) / (2π·d)</div>
+            <p>где d - расстояние между проводниками [м], l - длина проводников [м]</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Магнитная проницаемость</h3>
+            <div class="formula">μ = B / B₀</div>
+            <p>где B - индукция в среде, B₀ - индукция в вакууме</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Магнитные свойства веществ</h3>
+            <div class="formula">μ ≈ 1 (для парамагнетиков и диамагнетиков)</div>
+            <div class="formula">μ >> 1 (для ферромагнетиков)</div>
+            <p>Диамагнетики: μ &lt; 1, Парамагнетики: μ > 1, Ферромагнетики: μ ≫ 1</p>
+        </div>
+    </div>
+    
+    <a href="#" class="button">Назад</a>
+</body>
+</html>

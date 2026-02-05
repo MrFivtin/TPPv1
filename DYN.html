@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Динамика: Формулы 10 класс</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #e0f7fa;
+            font-family: 'Arial', sans-serif;
+            color: #004d40;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 2px #fff;
+            text-align: center;
+        }
+        .formula-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 77, 64, 0.2);
+            max-width: 800px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .formula-section {
+            margin-bottom: 25px;
+        }
+        .formula-section h3 {
+            color: #00796b;
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .formula {
+            font-size: 1.2em;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-left: 4px solid #00796b;
+            border-radius: 0 5px 5px 0;
+            font-family: 'Courier New', monospace;
+        }
+        .button {
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 20px;
+            color: white;
+            background-color: #00796b;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.2s;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #004d40;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>ДИНАМИКА: ФОРМУЛЫ 10 КЛАСС</h1>
+    
+    <div class="formula-container">
+        <div class="formula-section">
+            <h3>Основные законы динамики</h3>
+            <div class="formula">F = m · a (Второй закон Ньютона)</div>
+            <div class="formula">F₁₂ = -F₂₁ (Третий закон Ньютона)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Сила тяжести и вес</h3>
+            <div class="formula">Fт = m · g</div>
+            <div class="formula">P = m · g (вес тела в покое или равномерном движении)</div>
+            <div class="formula">P = m · (g + a) (ускоренное движение вверх)</div>
+            <div class="formula">P = m · (g - a) (ускоренное движение вниз)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Сила упругости (Закон Гука)</h3>
+            <div class="formula">Fупр = -k · x</div>
+            <p>где k - жёсткость пружины, x - деформация</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Силы трения</h3>
+            <div class="formula">Fтр.ск = μ · N (сила трения скольжения)</div>
+            <div class="formula">Fтр.пок ≤ μ₀ · N (сила трения покоя)</div>
+            <p>где μ - коэффициент трения скольжения, μ₀ - коэффициент трения покоя, N - сила реакции опоры</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Закон всемирного тяготения</h3>
+            <div class="formula">F = G · (m₁·m₂) / r²</div>
+            <p>где G = 6.67·10⁻¹¹ Н·м²/кг²</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Движение под действием силы тяжести</h3>
+            <div class="formula">v = v₀ + g·t</div>
+            <div class="formula">h = v₀·t + (g·t²)/2</div>
+            <div class="formula">v² - v₀² = 2·g·h</div>
+            <p>где g = 9.8 м/с² (ускорение свободного падения)</p>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Движение по окружности</h3>
+            <div class="formula">aц = v² / R = ω² · R (центростремительное ускорение)</div>
+            <div class="formula">Fц = m · v² / R = m · ω² · R (центростремительная сила)</div>
+            <div class="formula">ω = 2π / T = 2πν (угловая скорость)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Импульс и закон сохранения импульса</h3>
+            <div class="formula">p = m · v (импульс тела)</div>
+            <div class="formula">m₁·v₁ + m₂·v₂ = m₁·v₁' + m₂·v₂' (закон сохранения импульса)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Работа и энергия</h3>
+            <div class="formula">A = F · s · cosα</div>
+            <div class="formula">Eк = m · v² / 2 (кинетическая энергия)</div>
+            <div class="formula">Eп = m · g · h (потенциальная энергия в поле тяжести)</div>
+            <div class="formula">Eп = k · x² / 2 (потенциальная энергия упругости)</div>
+        </div>
+        
+        <div class="formula-section">
+            <h3>Закон сохранения механической энергии</h3>
+            <div class="formula">Eк₁ + Eп₁ = Eк₂ + Eп₂</div>
+        </div>
+    </div>
+    
+    <a href="#" class="button">Назад</a>
+</body>
+</html>
